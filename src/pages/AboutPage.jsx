@@ -4,6 +4,7 @@ import Footer from "../components/footer";
 import RafiNameCard from "../components/name-card/rafi";
 import AyuNameCard from "../components/name-card/ayu";
 import Fajar from "../components/name-card/fajar";
+import Adith from "../components/name-card/Adith";
 
 function AboutPage() {
   return (
@@ -16,7 +17,7 @@ function AboutPage() {
         {/* Panggil kartu nama kamu dibawah sini..... */}
 
 <AyuNameCard/>
-
+<Adith />
         <Fajar />
 
 
