@@ -10,6 +10,7 @@ import DindaNamecard from "../components/name-card/dinda";
 import AyuNameCard from "../components/name-card/ayu";
 import Fajar from "../components/name-card/fajar";
 import AndinNameCard from "../components/name-card/andin";
+import AbrorNameCard from "../components/name-card/abi";
 
 function AboutPage() {
   return (
@@ -21,6 +22,7 @@ function AboutPage() {
 
           {/* Panggil kartu nama kamu dibawah sini..... */}
           <Namecard />
+          <AbrorNameCard />
           <MuteaNamecard />
           <FazelNameCard />
           <AisyahNameCard />
