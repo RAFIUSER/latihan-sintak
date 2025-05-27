@@ -12,6 +12,7 @@ import AisyahNameCard from "../components/name-card/aisyah";
 import DindaNamecard from "../components/name-card/dinda";
 import AyuNameCard from "../components/name-card/ayu";
 import Fajar from "../components/name-card/fajar";
+import RiaNameCard from "../components/name-card/ria";
 
 
 function AboutPage() {
@@ -31,6 +32,7 @@ function AboutPage() {
 
 
         <DindaNamecard />
+        <RiaNameCard/>
 
 
 <AyuNameCard/>
