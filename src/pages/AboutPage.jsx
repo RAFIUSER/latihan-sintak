@@ -21,6 +21,7 @@ function AboutPage() {
       <NavBar />
       <div className="min-h-screen py-24 ">
         <div className="flex gap-8 flex-wrap items-center justify-center w-full px-4">
+          <MaulanaNamecard />
         
         <RafiNameCard />
         <MuteaNamecard />
