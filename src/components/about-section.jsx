@@ -22,10 +22,12 @@ const dataKonten = [
 function AboutSection() {
   return (
     <section className="py-32">
-      <div className="flex flex-col px-4 items-center justify-center max-w-7xl mx-auto">
+      <div className="flex flex-col px-4 items-center justify-center max-w-5xl mx-auto">
         {/* Bagian Judul */}
-        <div className="text-center space-y-2">
-          <h1 className="font-bold text-4xl md:text-6xl">Mengenal Lebih Dekat SINTAK</h1>
+        <div className="text-center space-y-4">
+          <h1 className="font-bold text-4xl md:text-5xl">
+            Mengenal Lebih Dekat SINTAK
+          </h1>
           <p className="text-gray-500">
             SINTAK adalah kelas terbuka yang diselenggarakan oleh HMJ Manajemen
             Informatika dan Google Developer Groups on Campus POLSRI untuk
@@ -35,16 +37,18 @@ function AboutSection() {
         </div>
 
         {/* Bagian Kotak */}
-        <div className="flex flex-col lg:flex-row items-center gap-4 mt-4 overflow-hidden">
+        <div className="flex flex-col lg:flex-row items-center gap-4 mt-12">
           {dataKonten.map((data) => (
-            <div className="flex items-center flex-col p-4 w-sm border border-gray-300">
-              <div className="bg-red-200 p-4 rounded-full">
-                <data.ikon size={32} />
+            <div className="border border-gray-300 rounded-lg px-6 py-4 w-full">
+              <div className="flex flex-col items-center justify-center text-center gap-4">
+                <div className="bg-red-200 rounded-full p-4">
+                  <data.ikon size={32} />
+                </div>
+                <div>
+                  <h1 className="text-xl font-semibold">{data.judul}</h1>
+                  <p className="text-gray-600">{data.deskripsi}</p>
+                </div>
               </div>
-              <h2 className="font-bold text-xl">{data.judul}</h2>
-              <p className="text-gray-500">
-                {data.deskripsi}
-              </p>
             </div>
           ))}
         </div>

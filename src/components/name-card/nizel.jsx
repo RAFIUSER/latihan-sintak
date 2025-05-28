@@ -1,8 +1,8 @@
 import React from "react";
 
-function Namecard() {
+function NizelNamecard() {
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div className="flex items-center justify-center">
       <div className="border border-black-300 p-2 flex flex-col rounded-lg max-w-sm gap-2">
         <img
           src="./nzl.jpg"
@@ -33,4 +33,4 @@ function Namecard() {
   );
 }
 
-export default Namecard;
+export default NizelNamecard;

@@ -1,7 +1,7 @@
 import { Instagram } from "lucide-react";
 import React from "react";
 
-function Fajar() {
+function MaulanaNameCard() {
   return (
     <div className="border border-gray-300 p-4 rounded-lg max-w-sm">
       <div className="flex flex-col gap-4">
@@ -34,4 +34,4 @@ function Fajar() {
   );
 }
 
-export default Fajar;
+export default MaulanaNameCard;

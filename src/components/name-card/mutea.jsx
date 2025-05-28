@@ -2,7 +2,7 @@ import React from 'react'
 
 function MuteaNamecard() {
   return (
-    <div className="flex items-center justify-center min-h-screen ">
+    <div className="flex items-center justify-center">
       <div
         className="border border-gray-300 p-4
       flex flex-col rounded-lg max-w-sm gap-4 items-center"
@@ -27,7 +27,7 @@ function MuteaNamecard() {
 
         <a
           href="https://instagram.com/muthianisasi"
-          className="bg-black text-white text-center rounded-lg py-2"
+          className="bg-black text-white text-center rounded-lg py-2 w-full"
         >
           Instagram
         </a>

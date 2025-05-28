@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 import RafiNameCard from "../components/name-card/rafi";
 import Andre from "../components/name-card/Andre";
 import JehanNameCard from "../components/name-card/jehan";
-import Namecard from "../components/name-card/nizel";
+import NizelNamecard from "../components/name-card/nizel";
 import MuteaNamecard from "../components/name-card/mutea";
 import FazelNameCard from "../components/name-card/fazel";
 import AisyahNameCard from "../components/name-card/aisyah";
@@ -15,8 +15,12 @@ import Adith from "../components/name-card/Adith";
 import RiaNameCard from "../components/name-card/ria";
 import AndinNameCard from "../components/name-card/andin";
 import AbrorNameCard from "../components/name-card/abi";
+import Calvin from "../components/name-card/calvin";
+import NabilaNameCard from "../components/name-card/bila";
+import MaulanaNameCard from "../components/name-card/maulana";
+// 17
 
-function AboutPage() {
+function PesertaPage() {
   return (
     <div>
       <NavBar />
@@ -28,7 +32,12 @@ function AboutPage() {
         {/* Panggil kartu nama kamu dibawah sini..... */}
         <AyuNameCard/>
         <Adith />
-        <MaulanaNamecard />
+        <MaulanaNameCard />
+        <NizelNamecard />
+        <AndinNameCard />
+        <AbrorNameCard />
+        <NabilaNameCard />
+        <Calvin />
         <Andre />
         <JehanNameCard />
         <MuteaNamecard />
@@ -36,9 +45,7 @@ function AboutPage() {
         <AisyahNameCard />
         <DindaNamecard />
         <RiaNameCard/>
-        <AyuNameCard/>
         <Fajar />
- 
 
         </div>
       </div>
@@ -47,4 +54,4 @@ function AboutPage() {
   );
 }
 
-export default AboutPage;
+export default PesertaPage;

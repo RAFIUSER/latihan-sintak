@@ -4,7 +4,7 @@ import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router";
 import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/Kontak";
-import AboutPage from "./pages/AboutPage";
+import PesertaPage from "./pages/PesertaPage";
 
 
 createRoot(document.getElementById("root")).render(
@@ -12,7 +12,7 @@ createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/peserta" element={<PesertaPage />} />
         <Route path="/kontak" element={<ContactPage />} />
       </Routes>
     </BrowserRouter>

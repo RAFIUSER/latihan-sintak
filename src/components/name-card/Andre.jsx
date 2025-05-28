@@ -7,7 +7,7 @@ function Andre() {
       <div className="flex flex-col gap-4">
         <div className="flex items-center gap-2">
           <img
-            src="./Andre-png..png"
+            src="./default.png"
             alt="rafi"
             className="w-18 rounded-full border border-gray-300 hover:animate-spin"
           />

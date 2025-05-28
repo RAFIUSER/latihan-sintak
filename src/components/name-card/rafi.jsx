@@ -13,7 +13,7 @@ function RafiNameCard() {
           />
           <div>
             <h1 className="font-bold text-lg">Kgs. M. Rafiussyakban</h1>
-            <h2 className="text-sm">Manajemen Informatika</h2>
+            <h2 className="text-sm">Mentor</h2>
           </div>
         </div>
         <p className="text-gray-500">
