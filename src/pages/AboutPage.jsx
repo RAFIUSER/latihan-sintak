@@ -25,6 +25,7 @@ function AboutPage() {
         <RafiNameCard />
 
           {/* Panggil kartu nama kamu dibawah sini..... */}
+        <MaulanaNamecard />
         <Andre />
         <JehanNameCard />
         <MuteaNamecard />
