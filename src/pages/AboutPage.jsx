@@ -11,6 +11,7 @@ import AisyahNameCard from "../components/name-card/aisyah";
 import DindaNamecard from "../components/name-card/dinda";
 import AyuNameCard from "../components/name-card/ayu";
 import Fajar from "../components/name-card/fajar";
+import Adith from "../components/name-card/Adith";
 import RiaNameCard from "../components/name-card/ria";
 import AndinNameCard from "../components/name-card/andin";
 import AbrorNameCard from "../components/name-card/abi";
@@ -24,7 +25,9 @@ function AboutPage() {
         
         <RafiNameCard />
 
-          {/* Panggil kartu nama kamu dibawah sini..... */}
+        {/* Panggil kartu nama kamu dibawah sini..... */}
+        <AyuNameCard/>
+        <Adith />
         <MaulanaNamecard />
         <Andre />
         <JehanNameCard />
