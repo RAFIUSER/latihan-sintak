@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
 import RafiNameCard from "../components/name-card/rafi";
+import Andre from "../components/name-card/Andre";
 import JehanNameCard from "../components/name-card/jehan";
 import Namecard from "../components/name-card/nizel";
 import MuteaNamecard from "../components/name-card/mutea";
@@ -14,7 +15,6 @@ import RiaNameCard from "../components/name-card/ria";
 import AndinNameCard from "../components/name-card/andin";
 import AbrorNameCard from "../components/name-card/abi";
 
-
 function AboutPage() {
   return (
     <div>
@@ -25,6 +25,7 @@ function AboutPage() {
         <RafiNameCard />
 
           {/* Panggil kartu nama kamu dibawah sini..... */}
+        <Andre />
         <JehanNameCard />
         <MuteaNamecard />
         <FazelNameCard/>
