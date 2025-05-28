@@ -2,7 +2,7 @@ import { Calendar, Clock, MapPin } from "lucide-react";
 
 function HeroSection() {
   return (
-    <section className="w-full">
+    <section className="w-full py-12">
       <div className="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-center">
         <div className="flex flex-col justify-center gap-4">
           <h1 className="text-5xl font-bold">
