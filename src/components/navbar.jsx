@@ -7,10 +7,10 @@ function NavBar() {
   return (
     <header className="sticky top-0 border bg-white/90 border-gray-300 z-50">
       <div className="flex max-w-7xl px-4 mx-auto justify-between h-16 items-center">
-        <div className="flex items-center gap-2">
-          <CodeXml size={32} />
-          <h1 className="font-bold text-xl text-red-500">SINTAK.</h1>
-        </div>
+        <a href="/" className="flex items-center gap-2">
+            <CodeXml size={32} />
+            <h1 className="font-bold text-xl text-red-500">SINTAK.</h1>
+        </a>
 
         {/* Dekstop Nav */}
         <ul className="hidden md:flex gap-8">
@@ -25,8 +25,8 @@ function NavBar() {
             </a>
           </li>
           <li>
-            <a href="/kontak" className="hover:text-red-500">
-              Kontak
+            <a href="/karya" className="hover:text-red-500">
+              Karya Peserta
             </a>
           </li>
         </ul>
@@ -54,7 +54,7 @@ function NavBar() {
             <a href="/peserta">Peserta</a>
           </li>
           <li>
-            <a href="/kontak">Kontak</a>
+            <a href="/karya">Karya Peserta</a>
           </li>
         </ul>
       )}
